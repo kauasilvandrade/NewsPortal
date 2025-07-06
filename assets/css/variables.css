@@ -19,23 +19,11 @@
   --h3: 900 0.875rem/140% var(--ff-sans);
   --span: 600 0.875/145% var(--ff-sans);
   --p: 400 0.875rem/160% var(--ff-sans);
+  --tag: 500 0.625rem/160% var(--ff-sans);
 
   /* SPACES */
   --py-base: 1rem;
   --py-lg: 2rem;
   --py-xl: 2rem;
-
-}
-
-@media (width >= 80rem) {
-
-  :root {
-
-    /* ESPAÇAMENTOS */
-    --py-base: 1.25rem;
-    --py-lg: 1rem;
-    --py-xl: 5rem
-  
-  }
 
 }

@@ -1,0 +1,9 @@
+.card-label {
+  background-color: var(--brand-color-dark);
+  font: var(--tag);
+  text-transform: uppercase;
+  padding: 0.5rem;
+  display: inline-block;
+  letter-spacing: 0.04em;
+  border-radius: 4px;
+}
