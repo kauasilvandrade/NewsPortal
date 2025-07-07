@@ -3,6 +3,7 @@
 @import url(elements.css);
 @import url(header.css);
 @import url(feature.css);
+@import url(weekly.css);
 
 * {
   padding: 0;
