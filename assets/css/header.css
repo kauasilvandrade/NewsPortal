@@ -1,0 +1,13 @@
+header.container {
+  span.desktop-only {
+    font: 700 1rem/140% var(--ff-sans);
+    color: var(--text-color-primary);
+  }
+
+  .secondary {
+    padding-block: 0.875rem;
+    border-top: 1px solid var(--stroke-color);
+    border-bottom: 1px solid var(--stroke-color);
+    margin-bottom: 2.18rem;
+  }
+}

@@ -1,0 +1,43 @@
+.feature {
+
+  & > .card:nth-child(1) {
+    img {
+      height: 27.76rem;
+    }
+
+    figcaption {
+      padding: 1.5rem;
+    }
+  }
+
+  & .card {
+    position: relative;
+
+    img {
+      border-radius: 4px;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 0.75rem;
+      
+      h2 {
+        font-size: 0.875rem;
+      }
+
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      top: 50%;
+      background: linear-gradient(180deg, transparent 0%, #020617 100%);
+    }
+
+  }
+
+}

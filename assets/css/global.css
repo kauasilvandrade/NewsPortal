@@ -1,6 +1,8 @@
 @import url(variables.css);
 @import url(utilityclass.css);
 @import url(elements.css);
+@import url(header.css);
+@import url(feature.css);
 
 * {
   padding: 0;
@@ -32,6 +34,7 @@ h3 {
 a {
   color: inherit;
   text-decoration: none;
+  color: var(--text-color-secondary);
 }
 
 button {
@@ -45,7 +48,7 @@ ul[role="list"] {
 
 img {
   max-width: 100%;
-  display: inline-block;
+  display: block;
 }
 
 img.icon {

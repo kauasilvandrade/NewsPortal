@@ -54,13 +54,13 @@
 
 @media (width >= 80rem) {
   :root {
-    --py-base: 1.25rem;
+    --py-base: 1.25rem; 
     --py-lg: 1rem;
     --py-xl: 5rem
   }
 
   .desktop-only {
-    display: initial;
+    display: block;
   }
 
   .even-columns {
