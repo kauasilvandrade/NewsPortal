@@ -48,6 +48,11 @@ img {
   display: inline-block;
 }
 
+img.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - 1rem * 2);

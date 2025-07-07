@@ -31,12 +31,24 @@
   align-items: center;
 }
 
+.justify-between {
+  justify-content: space-between
+}
+
 .gap-16 {
   gap: 1rem;
 }
 
 .gap-24 {
   gap: 1.5rem;
+}
+
+.gap-32 {
+  gap: 2rem;
+}
+
+.py-bottom-24 {
+  padding-bottom: 2rem;
 }
 
 
