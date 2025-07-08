@@ -1,15 +1,15 @@
 .weekly {
   
-  .highlightsNews {
+  & .highlightsNews {
     position: relative;
     
-    span.card-label {
+    & span.card-label {
       position: absolute;
       top: 0.5rem;
       left: 0.5rem;
     } 
     
-    img {
+    & img {
       margin-bottom: 0.5rem;
     }
 
