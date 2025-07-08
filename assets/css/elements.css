@@ -19,10 +19,10 @@
     cursor: pointer;
 
     &:hover {
-      color: var(--brand-color-dark);
+      color: var(--brand-color-light);
       
       svg path {
-        fill: var(--brand-color-dark);
+        fill: var(--brand-color-light);
       }
     }
   }
